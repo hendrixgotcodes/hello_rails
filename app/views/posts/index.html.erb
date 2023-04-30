@@ -1,2 +1,10 @@
 <h1>Posts#index</h1>
 <p>Hello rails</p>
+
+<ul>
+    <% @posts.each do |post| %>
+        <li>
+            <%= post.title%>
+        </li>
+    <% end %>
+</ul>
