@@ -1,0 +1,10 @@
+<h1>
+    <%= @comment.title%>
+</h1>
+<p>
+<%= @comment.body%>
+</p>
+
+<ul>
+  <li><%= link_to "Edit", edit_comment_path(@comment) %></li>
+</ul>
